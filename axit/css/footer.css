@@ -1,0 +1,31 @@
+.footer__set{
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+footer{
+	width: 1170px;
+	margin: auto;
+	height: 164px;
+	background: #000000;
+}
+i{
+	width: 55px;
+	align-items: center;
+	display: flex;
+}
+.footer__h5{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	
+	color: rgba(255, 255, 255, 0.5);
+	padding-top: 10px;
+}
