@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&family=Raleway:wght@400;700&display=swap');
 
 .container__titlecustom{
 	font-family: 'Raleway';
@@ -16,7 +17,7 @@
 }
 .cocntainer__customers{
 	text-align: center;
-	width: 1170px;
+	max-width: 1170px;
 	margin: auto;
 }
 .container__separatorcustom{
@@ -61,23 +62,29 @@ triangle-down{
 
 .container__custom{
 	display: flex;
-	width: 1170px;
-	justify-content:space-around;
-	margin: auto;
-}
-.content__custom{
-	width: 300px;
-}
-.container2__custom{
-	display: flex;
-	width: 1170px;
 	justify-content: space-around;
-	margin: auto;
+	margin-bottom: 50px;
+}
+.cocntainer__custom1{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+.content__custom {
+	padding: 20px;
+}
+.img__customs{
+	display: flex;
+	justify-content: space-around;
 }
 .img__custom{
+	padding: 20px;
+}
+.custom__manager{
 	display: flex;
-	width: 300px;
-	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 	
 }
 .img__h4custom {
@@ -91,7 +98,7 @@ triangle-down{
 .custom{
 	width: 70px;
 	height: 70px;
-	margin-right: 20px;
+	
 }
 .img__h5custom{
 	font-family: 'Raleway';
@@ -101,7 +108,6 @@ triangle-down{
 	line-height: 21px;
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 100px;
 	color: #000000;
-	padding-bottom: 50px;
+	margin-top: -20px;
 }

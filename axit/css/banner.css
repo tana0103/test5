@@ -1,6 +1,6 @@
 .banner {
 	background-image: url(./axit/image.png);
-	width: 1170px;
+	max-width: 1170px;
 	height: 1000px;
 	margin: auto;
 	background-repeat: no-repeat;

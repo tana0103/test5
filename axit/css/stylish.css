@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&family=Raleway:wght@700&display=swap');
+
 .stylish{
 	margin-top: 50px;
 	background-image: url(./axit/image\ \(фон\).png);
-	width: 1170px;
+	max-width: 1170px;
 	margin: auto;
-	padding: 15px;
 	height: 442px;
 }
 .stylish__h2{
