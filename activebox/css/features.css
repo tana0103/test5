@@ -1,0 +1,39 @@
+.features{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.features__icon{
+	width: 33.333%;
+	margin-top: 30px;
+}
+.features__h3{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	justify-content: center;
+	
+	color: #2D3033;
+	padding: 10px;
+}
+.features__h5{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	
+	color: #6C7279;
+	padding: 15px;
+}
