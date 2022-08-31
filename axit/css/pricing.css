@@ -6,7 +6,7 @@
 .container__pricing{
 	background: #F5F5F5;
 	text-align: center;
-	width: 1170px;
+	width: 100%;
 	margin: auto;
 }
 .container__titlepricing{
@@ -38,9 +38,12 @@
 	color: #86878B;
 }
 .list__praice{
-	display: inline-flex;
-	flex-wrap:nowrap;
+	display: flex;
 	flex-direction: column;
+}
+.container__pricepricing{
+	display: flex;
+	justify-content: space-around;
 }
 .ul__rectangle114pricing{
 	background: #333333;
@@ -83,10 +86,10 @@
 	text-align: center;
 	
 }
+.list__praice{
+	width: 30%;
+}
 .ul__rectangle117pricing{
-	width: 300px;
-	height: 50px;
-
 	background: #FFFFFF;
 	border: 2px solid #F5F5F5;
 

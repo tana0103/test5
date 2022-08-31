@@ -1,5 +1,5 @@
 .contact__text{
-	width: 1170px;
+	width: 100%;
 	margin: 0 auto;
 }
 .contact__h2{
@@ -39,27 +39,27 @@
 }
 .contact__form2{
 	display: flex;
-	width: 1170px;
+	width: 100%;
 	margin: auto;
-	height: 200px;
+	max-height: 200px;
 	flex-direction: column;
 	flex-wrap: wrap;
+	align-items: center;
 	justify-content: space-around;
 	padding-bottom: 50px;
 }
+
 .contact__input{
 	border: none;
 	border-bottom: 1px solid #BDBDBD;
-	width: 530px;
+	width: 37%;
 	padding: 10px;
 	padding-top: 25px;
 	padding-right: 20px;
 	justify-content: space-around;
 }
 .contact__input:nth-child(4){
-	
-	padding-bottom: 145px;
-	padding-top: opx;
+	padding-bottom: 113px;
 }
 .contact__button{
 	width: 370px;

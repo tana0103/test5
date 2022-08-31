@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&family=Raleway:wght@400;700&display=swap');
 
+.customers{
+	width: 80%;
+	margin: auto;
+}
 .container__titlecustom{
 	font-family: 'Raleway';
 	font-style: normal;
@@ -17,12 +21,11 @@
 }
 .cocntainer__customers{
 	text-align: center;
-	max-width: 1170px;
+	max-width: 100%;
 	margin: auto;
 }
 .container__separatorcustom{
 	width: 170px;
-	
 	border: 1px solid #EC7979;
 }
 .container__articlecustomer{
@@ -47,7 +50,7 @@
 	text-align: center;
 	background: #E2E2E2;
 	border-radius: 10px;
-	padding: 10px;
+	padding: 30px;
 	color: #86878B;
 }
 
@@ -76,16 +79,18 @@ triangle-down{
 .img__customs{
 	display: flex;
 	justify-content: space-around;
+	
 }
 .img__custom{
 	padding: 20px;
+	width: 30%;
 }
 .custom__manager{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	
+	width: 70%;
 }
 .img__h4custom {
 	font-family: 'Open Sans';
@@ -95,11 +100,7 @@ triangle-down{
 	font-size: 24px;
 	color: #000000;
 }
-.custom{
-	width: 70px;
-	height: 70px;
-	
-}
+
 .img__h5custom{
 	font-family: 'Raleway';
 	font-style: normal;

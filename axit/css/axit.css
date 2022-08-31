@@ -9,13 +9,14 @@
 @import url(./footer.css);
 
 header{
-	max-width: 1170px;
+	width: 100%;
 	background: #000000;
 	display: flex;
 	text-align: center;
 	height: 75px;
 	margin: auto;
-	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
 	align-items: center;
 }
 .img__logo{
@@ -24,7 +25,7 @@ header{
 .menu{
 	display: flex;
 	justify-content:space-around;
-	margin-left: 170px;
+	flex-wrap: wrap;
 	width: 570px;
 }
 li{
@@ -52,9 +53,6 @@ li{
 }
 
 html{
-	max-width: 1170px;
-	padding: 15px;
 	scroll-behavior: smooth;
 	margin: 0 auto;
 }
-

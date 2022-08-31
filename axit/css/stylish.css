@@ -4,9 +4,9 @@
 .stylish{
 	margin-top: 50px;
 	background-image: url(./image\ \(1\).png);
-	max-width: 1170px;
+	width: 100%;
 	margin: auto;
-	height: 442px;
+	min-height: 442px;
 }
 .stylish__h2{
 	font-family: 'Raleway';
@@ -24,7 +24,6 @@
 	color: #FFFFFF;
 	padding-top: 100px;
 	padding-bottom: 35px;
-
 	margin: 0 auto;
 }
 .stylish__separator{

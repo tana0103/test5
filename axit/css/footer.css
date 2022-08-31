@@ -3,15 +3,23 @@
 .footer__set{
 
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	padding-top: 30px;
-	margin-top: 50px;
+	width: 40%;
+	align-items: center;
+	
 }
 footer{
-	width: 1170px;
-	margin: auto;
+	width: 100%;
+	margin: 0 auto;
 	height: 164px;
 	background: #000000;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	justify-content: space-around;
 }
 i{
 	width: 55px;
