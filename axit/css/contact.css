@@ -2,6 +2,7 @@
 	width: 100%;
 	margin: 0 auto;
 }
+
 .contact__h2{
 	font-family: 'Raleway';
 	font-style: normal;
@@ -12,16 +13,17 @@
 	align-items: center;
 	text-align: center;
 	text-transform: uppercase;
-	
 	color: #000000;
 	padding-top: 50px;
 	justify-content: center;
 	padding-bottom: 40px;
 }
+
 .contact__separator{
 	width: 170px;
 	border: 1px solid #EC7979;
 }
+
 .contact__h5{
 	font-family: 'Raleway';
 	font-style: normal;
@@ -31,12 +33,12 @@
 	display: flex;
 	align-items: center;
 	text-align: center;
-	
 	color: #86878B;
 	padding-top: 30px;
 	justify-content: center;
 	padding-bottom: 50px;
 }
+
 .contact__form2{
 	display: flex;
 	width: 100%;
@@ -57,10 +59,13 @@
 	padding-top: 25px;
 	padding-right: 20px;
 	justify-content: space-around;
+	outline: 0;
 }
+
 .contact__input:nth-child(4){
 	padding-bottom: 113px;
 }
+
 .contact__button{
 	width: 370px;
 	height: 58px;
@@ -76,7 +81,35 @@
 	text-align: center;
 	text-transform: capitalize;
 	justify-content: center;
-	
 	color: #FFFFFF;
 	border: none;
+}
+
+.contact__button:hover{
+	background: #AB4949;
+}
+
+@media (max-width: 767px) {
+	.contact__button{
+		width: 288px;
+		height: 50px;
+	}
+
+	.contact__form2{
+		max-height: 800px;
+	}
+
+	.contact__input{
+		width: 85%;
+	}
+
+	.contact__h2{
+		font-size: 24px;
+		line-height: 28px;
+	}
+	
+	.contact__h5{
+		font-size: 14px;
+		line-height: 16px;
+	}
 }
