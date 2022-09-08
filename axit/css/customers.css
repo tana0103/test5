@@ -5,6 +5,20 @@
 .customers{
 	width: 95%;
 	margin: 0 auto;
+	padding: 0px;
+}
+.input__slaide{
+	display: none;
+}
+
+.slider {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap ;
+}
+
+.slaide {
+	width: 30%;
 }
 
 .container__titlecustom{
@@ -71,16 +85,6 @@ triangle-down{
 	margin-bottom: 50px;
 }
 
-.cocntainer__custom1{
-	display: flex;
-	justify-content: space-around;
-	padding: 20px;
-}
-
-.content__custom{
-	width: 90%
-}
-
 .img__customs{
 	display: flex;
 	justify-content: space-around;
@@ -118,4 +122,96 @@ triangle-down{
 	flex-wrap: wrap;
 	color: #000000;
 	margin-top: -20px;
+}
+
+@media (max-width: 767px) {
+	.container__titlecustom{
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.container__articlecustomer{
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.wrapper-slaider {
+			margin: 100px auto 0;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+		}
+	
+		.wrapper-slaider>input {
+			display: none;
+		}
+	
+		.wrapper-slaider .slider {
+			display: flex;
+			justify-content: center;
+		}
+
+		.slaide{
+			width: 100%;
+		}
+	
+		.slaide1,
+		.slaide2,
+		.slaide3 {
+			display: none;
+			max-width: 350px;
+		}
+	
+		#slaide1:checked~.slider>.slaide1,
+		#slaide2:checked~.slider>.slaide2,
+		#slaide3:checked~.slider>.slaide3 {
+			display: flex;
+		}
+	
+		.wrapper-slaider .controls {
+			display: flex;
+			justify-content: center;
+		}
+	
+		.wrapper-slaider label {
+			width: 12px;
+			height: 12px;
+			cursor: pointer;
+			margin: 16px;
+	
+			border: 1px solid #86878B;
+			border-radius: 50%;
+			transition: background ease-in-out .3s;
+		}
+	
+		.wrapper-slaider label::after {
+			content: "";
+			display: block;
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			margin: 2px;
+		}
+	
+		.wrapper-slaider label:hover,
+		#slaide1:checked~.controls label:nth-of-type(1):after,
+		#slaide2:checked~.controls label:nth-of-type(2):after,
+		#slaide3:checked~.controls label:nth-of-type(3):after {
+			background: #86878B;
+		}
+
+		.content__h5custom{
+			font-size: 14px;
+			line-height: 16px;
+		}
+
+		.img__h4custom{
+			font-size: 14px;
+			line-height: 19px;
+		}
+
+		.img__h5custom{
+			font-size: 13px;
+			line-height: 15px;
+		}
 }

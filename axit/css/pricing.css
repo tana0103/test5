@@ -8,6 +8,7 @@
 	text-align: center;
 	width: 100%;
 	margin: auto;
+	padding: 0px;
 }
 
 .pricing__title{
@@ -131,6 +132,16 @@ li{
 }
 
 @media (max-width: 767px) {
+	.pricing__title{
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.pricing__article{
+		font-size: 14px;
+		line-height: 16px;
+	}
+	
 	.container__price{
 		flex-direction: column;
 	}

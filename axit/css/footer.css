@@ -19,6 +19,7 @@ footer{
 	flex-direction: column;
 	margin-top: 50px;
 	justify-content: space-around;
+	padding: 0px;
 }
 
 i{

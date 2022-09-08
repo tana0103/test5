@@ -2,11 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&family=Raleway:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&family=Raleway:wght@400;700&display=swap');
 
+.content__tabs{
+	padding: 0px;
+	margin: 0 auto;
+	width: 100%;
+}
 
 .tabs__wrapper {
 	padding-top: 50px;
 	max-width: 90%;
 	margin: 0 auto;
+}
+.tab:hover {		
+	border: 1px solid #C6CBCD;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.tabs {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .tabs__article {
@@ -62,7 +76,7 @@
 	box-shadow: inset 0px 0px 10px #AB4949;
 }
 
-.tabs__block {
+.tabs__block{
 	display: flex;
 	border: 1px solid #C6CBCD;
 	width: 100%;
@@ -71,11 +85,6 @@
 .img__tabs{
 	width: 100%;
 	height: 100%;
-}
-
-.tabs__text1 {
-	width: 50%;
-	padding-left: 40px;
 }
 
 .tabs__text{
@@ -88,7 +97,6 @@
 }
 
 .tab{
-	flex-basis: 17.333%;
 	text-align: center;
 	font-family: 'Open Sans';
 	font-style: normal;
@@ -100,40 +108,32 @@
 	justify-content: center;
 	align-items: center;
 	height: 40px;
+	width: 20%;
 }
-
-.tab1:hover , .tabs:hover{
-	background: #edeff0;
-	box-sizing: border-box;
-	border: 1px solid #C6CBCD;
-	border-radius: 5px 5px 0px 0px;
-}
-
-/*.tab1:hover, .tabs__block:hover{
-	background: #edeff0;
-	box-sizing: border-box;
-	border: 1px solid #C6CBCD;
-	border-radius: 5px 5px 0px 0px;
-}
-.tab2:hover, .tabs__block:hover {
-	background: #edeff0;
-	box-sizing: border-box;
-	border: 1px solid #C6CBCD;
-	border-radius: 5px 5px 0px 0px;
-}*/
-
-.tabs {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-/*.tab:hover:hover, .tabs__text:hover{
-	background: gold;
-}*/
 
 .input_tab {
-	opacity: 0;
+	display: none;
+	/*opacity: 0;*/
 }
+
+/*#tab_01:checked ~ .tab1 {
+	border: 1px solid #C6CBCD;
+	background: #C6CBCD;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#tab_02:checked + 
+.tab2 {
+	border: 1px solid #C6CBCD;
+	background: #C6CBCD;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#tab_03:checked+.tab3 {
+	border: 1px solid #C6CBCD;
+	background: #C6CBCD;
+	border-radius: 5px 5px 0px 0px;
+}*/
 
 #tab_01:checked~.tab__content1 {
 	display: block;
@@ -195,10 +195,14 @@
 		padding: 15px;
 	}
 
+	.tabs{
+		justify-content: center;
+	}
+	
 	.tab{
-		/*flex-basis: 30%;*/
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
+		width: 33%;
 	}
 }
 
