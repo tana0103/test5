@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&family=Raleway:wght@400;700&display=swap');
 
-.footer__set{
-	display: flex;
-	justify-content: space-around;
-	padding-top: 30px;
-	width: 60%;
-	align-items: center;
-}
-
 footer{
 	width: 100%;
 	margin: 0 auto;
@@ -22,8 +14,17 @@ footer{
 	padding: 0px;
 }
 
+.footer__set {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 30px;
+	width: 60%;
+	align-items: center;
+}
+
 i{
-	width: 55px;
+	height: 100%;
+	width: 100%;
 	align-items: center;
 	display: flex;
 }

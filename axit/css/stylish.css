@@ -81,6 +81,10 @@
 }
 
 @media (max-width: 767px) {
+	.stylish {
+		height: 358px;
+	}
+
 	.stylish__h2{
 		font-size: 24px;
 		line-height: 28px;
@@ -89,10 +93,6 @@
 	.social__h5{
 		font-size: 14px;
 		line-height: 16px;
-	}
-
-	.stylish{
-		height: 358px;
 	}
 	
 	.stylish__button{

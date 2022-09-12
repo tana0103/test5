@@ -7,6 +7,7 @@
 	margin: 0 auto;
 	padding: 0px;
 }
+
 .input__slaide{
 	display: none;
 }
@@ -178,7 +179,6 @@ triangle-down{
 			height: 12px;
 			cursor: pointer;
 			margin: 16px;
-	
 			border: 1px solid #86878B;
 			border-radius: 50%;
 			transition: background ease-in-out .3s;

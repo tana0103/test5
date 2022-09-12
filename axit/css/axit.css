@@ -20,8 +20,13 @@ header{
 	margin: 0 auto;
 }
 
-logo {
-	padding: 15px;
+.img__logo {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.header__burger {
+	display: none;
 }
 
 #burger,
@@ -33,20 +38,10 @@ logo {
 	display: flex;
 }
 
-.img__logo{
-	max-width: 183.1px;
-	max-height: 74.85px;
-	left: 115.28px;
-}
-
 .menu{
 	display: flex;
 	justify-content:space-around;
 	flex-wrap: wrap;
-}
-
-.header__burger{
-	display: none;
 }
 
 li{
