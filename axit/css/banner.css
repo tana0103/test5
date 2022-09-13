@@ -1,7 +1,7 @@
 .banner {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/image.png);
 	width: 100%;
-        background-position: center;
+	background-position: center;
 	background-repeat: repeat;
 	display: flex;
 	justify-content: space-around;
@@ -181,8 +181,8 @@ span {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	padding: 30px;
-	width: 40%;
+	padding: 20px 0;
+	width: 30%;
 }
 
 .social__h4 {
@@ -195,7 +195,7 @@ span {
 	align-items: center;
 	text-transform: capitalize;
 	color: #333333;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 .social__h5 {
@@ -217,7 +217,7 @@ span {
 	align-items: center;
 	flex-wrap: nowrap;
 	width: 60%;
-	padding: 15px;
+	padding: 20px 0;
 }
 
 i {
