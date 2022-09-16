@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="./css/active.css">
+	<link rel="stylesheet" href="./sass/styles.scss">
 </head>
 
 <body>
@@ -18,14 +18,17 @@
 					<img class="img__logo" src="./img/ACTIVEBOX.png" alt="">
 				</picture>
 			</logo>
+			<input type="checkbox" class="header__burger" id="burger">
+			<label for="burger"><img src="./img/Vector (3).png" alt=""></label>
+			</input>
 			<nav class="nav__menu">
-				<ul class="menu">
-					<li class="ul__menu"><a href="#features" class="ul__menu2">features</a></li>
-					<li class="ul__menu"><a href="#works" class="ul__menu2">works</a></li>
-					<li class="ul__menu"><a href="#our_team" class="ul__menu2">our team</a></li>
-					<li class="ul__menu"><a href="#testimonials" class="ul__menu2">testimonials</a></li>
-					<li class="ul__menu"><a href="#download" class="ul__menu2">download</a></li>
-				</ul>
+				<div class="menu">
+					<div class="ul__menu"><a href="#features" class="ul__menu2">features</a></div>
+					<div class="ul__menu"><a href="#works" class="ul__menu2">works</a></div>
+					<div class="ul__menu"><a href="#our_team" class="ul__menu2">our team</a></div>
+					<div class="ul__menu"><a href="#testimonials" class="ul__menu2">testimonials</a></div>
+					<div class="ul__menu"><a href="#download" class="ul__menu2">download</a></div>
+				</div>
 			</nav>
 		</div>
 		<div class="banner__br"><br class="banner__line"></div>
@@ -37,6 +40,7 @@
 			<button class="banner__button">Find Out More</button>
 		</div>
 	</div>
+
 	<div id=features class="features">
 		<div class="features__icon features__icon1">
 			<img class="imgfeatures__icon1" src="./img/icon_1.png" alt="">
@@ -86,35 +90,50 @@
 				ullamcorper nulla non metus auctor fringilla.</p>
 		</div>
 	</div>
+
 	<div id=works class="works">
 		<div class="works__img works__img1">
-			<img class="img__work img__work3" src="./img/work_1.png" alt="">
+			<img class="img__work img__work1" src="./img/work_1.png" alt="">
+			<p class="works__h">Project Name</p>
+			<p class="works__h5">User Interface Design</p>
 		</div>
 		<div class="works__img works__img2">
-			<img class=" img__work img__work3" src="./img/work_2.png" alt="">
+			<img class="img__work img__work2" src="./img/work_2.png" alt="">
+			<p class="works__h">Project Name</p>
+			<p class="works__h5">User Interface Design</p>
 		</div>
 		<div class="works__img works__img3">
-			<img class="img__work img__work3" src="./img/Rectangle 17.png" alt="">
-			<img class="img__work img__work3a" src="./img/Rectangle 18.png" alt="">
+			<img class="img__work img__work3" src="./img/Rectangle 2.png">
 			<p class="works__h">Project Name</p>
 			<p class="works__h5">User Interface Design</p>
 		</div>
 		<div class="works__img works__img4">
 			<img class="img__work img__work4" src="./img/work_4.png" alt="">
+			<p class="works__h">Project Name</p>
+			<p class="works__h5">User Interface Design</p>
 		</div>
 		<div class="works__img works__img5">
 			<img class="img__work img__work5" src="./img/work_5.png" alt="">
+			<p class="works__h">Project Name</p>
+			<p class="works__h5">User Interface Design</p>
 		</div>
 		<div class="works__img works__img6">
 			<img class="img__work img__work6" src="./img/work_6.png" alt="">
+			<p class="works__h">Project Name</p>
+			<p class="works__h5">User Interface Design</p>
 		</div>
 		<div class="works__img works__img7">
 			<img class="img__work img__work7" src="./img/work_7.png" alt="">
+			<p class="works__h">Project Name</p>
+			<p class="works__h5">User Interface Design</p>
 		</div>
 		<div class="works__img works__img8">
 			<img class="img__work img__work8" src="./img/work_8.png" alt="">
+			<p class="works__h">Project Name</p>
+			<p class="works__h5">User Interface Design</p>
 		</div>
 	</div>
+
 	<div id=our_team class="team">
 		<script src="https://kit.fontawesome.com/6538a8b68e.js" crossorigin="anonymous"></script>
 		<div class="team__content">
@@ -129,9 +148,9 @@
 					vel eu leo.</p>
 			</div>
 			<div class="team__set">
-				<a href="https://www.facebook.com/"><i class="team__bar fa-brands fa-facebook-f"></i></a>
-				<a href="https://twitter.com/"><i class="team__bar fa-brands fa-twitter"></i></a>
-				<a href="https://ru.linkedin.com/"><i class="team__bar fa-brands fa-linkedin"></i></a>
+				<a href="https://www.facebook.com/" target="_blank"><i class="team__bar fa-brands fa-facebook-f"></i></a>
+				<a href="https://twitter.com/" target="_blank"><i class="team__bar fa-brands fa-twitter"></i></a>
+				<a href="https://ru.linkedin.com/" target="_blank"><i class="team__bar fa-brands fa-linkedin"></i></a>
 			</div>
 		</div>
 		<div class="team__content">
@@ -146,9 +165,9 @@
 					vel eu leo.</p>
 			</div>
 			<div class="team__set">
-				<a href="https://www.facebook.com/"><i class="team__bar fa-brands fa-facebook-f"></i></a>
-				<a href="https://twitter.com/"><i class="team__bar fa-brands fa-twitter"></i></a>
-				<a href="https://ru.linkedin.com/"><i class="team__bar fa-brands fa-linkedin"></i></a>
+				<a href="https://www.facebook.com/" target="_blank"><i class="team__bar fa-brands fa-facebook-f"></i></a>
+				<a href="https://twitter.com/" target="_blank"><i class="team__bar fa-brands fa-twitter"></i></a>
+				<a href="https://ru.linkedin.com/" target="_blank"><i class="team__bar fa-brands fa-linkedin"></i></a>
 			</div>
 		</div>
 		<div class="team__content">
@@ -163,9 +182,9 @@
 					vel eu leo.</p>
 			</div>
 			<div class="team__set">
-				<a href="https://www.facebook.com/"><i class="team__bar fa-brands fa-facebook-f"></i></a>
-				<a href="https://twitter.com/"><i class="team__bar fa-brands fa-twitter"></i></a>
-				<a href="https://ru.linkedin.com/"><i class="team__bar fa-brands fa-linkedin"></i></a>
+				<a href="https://www.facebook.com/" target="_blank"><i class="team__bar fa-brands fa-facebook-f"></i></a>
+				<a href="https://twitter.com/" target="_blank"><i class="team__bar fa-brands fa-twitter"></i></a>
+				<a href="https://ru.linkedin.com/" target="_blank"><i class="team__bar fa-brands fa-linkedin"></i></a>
 			</div>
 		</div>
 		<div class="team__content">
@@ -180,37 +199,57 @@
 					vel eu leo.</p>
 			</div>
 			<div class="team__set">
-				<a href="https://www.facebook.com/"><i class="team__bar fa-brands fa-facebook-f"></i></a>
-				<a href="https://twitter.com/"><i class="team__bar fa-brands fa-twitter"></i></a>
-				<a href="https://ru.linkedin.com/"><i class="team__bar fa-brands fa-linkedin"></i></a>
+				<a href="https://www.facebook.com/" target="_blank"><i class="team__bar fa-brands fa-facebook-f"></i></a>
+				<a href="https://twitter.com/" target="_blank"><i class="team__bar fa-brands fa-twitter"></i></a>
+				<a href="https://ru.linkedin.com/" target="_blank"><i class="team__bar fa-brands fa-linkedin"></i></a>
 			</div>
 		</div>
 	</div>
-	<div id=testimonials class="testimonials">
-		<div class="testimonials__content">
-			<div class="testimonials__img">
+
+	<div id=testimonials class="wrapper__slaide">
+		<div class="slider">
+			<div class="slaider-nav">
+				<label for="s1" class="slaider-nav-item"></label>
+				<label for="s2" class="slaider-nav-item"></label>
+				<label for="s3" class="slaider-nav-item"></label>
+				<label for="s4" class="slaider-nav-item"></label>
+				<label for="s5" class="slaider-nav-item"></label>
 			</div>
-		</div>
-		<div class="testimonials__content">
-			<div class="testimonials__text">
-				<p class="testimonials__h2">ìInteger posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed
-					odio dui. Aenean eu leo quam...î</p>
-				<p class="testimonials__h6">Susan Sims, Interaction Designer at XYZ</p>
+			<div class="slaider-item">
+				<input type="radio" name="s" id="s1">
+				<input type="radio" name="s" id="s2" checked>
+				<input type="radio" name="s" id="s3">
+				<input type="radio" name="s" id="s4">
+				<input type="radio" name="s" id="s5">
+
+				<div class="item s1">
+				</div>
+				<div class="item s2">
+					<div class="testimonials">
+						<div class="testimonials__img">
+							<img class="img__testimonials" src="./img/bg.png" alt="">
+						</div>
+						<div class="testimonials__text">
+							<p class="testimonials__h2">‚ÄúInteger posuere erat a ante venenatis dapibus posuere velit aliquet.
+								Donec sed
+								odio dui. Aenean eu leo quam...‚Äù</p>
+							<p class="testimonials__h6">Susan Sims, Interaction Designer at XYZ</p>
+						</div>
+					</div>
+				</div>
+				<div class="item s3"></div>
+				<div class="item s4"></div>
+				<div class="item s5"></div>
 			</div>
 		</div>
 	</div>
-	<div class="dots">
-		<div class="slide"></div>
-		<div class="slide"></div>
-		<div class="slide"></div>
-		<div class="slide"></div>
-		<div class="slide"></div>
-	</div>
+
 	<div id=download class="download">
 		<p class="download__h3">Are You Ready to Start? Download Now For Free!</p>
 		<p class="download__h5">Fusce dapibus, tellus ac cursus commodo</p>
 		<button class="download__button">download here</button>
 	</div>
+
 	<div class="footer">
 		<div class="footer__container">
 			<div class="footer__content footer__location">
@@ -220,9 +259,10 @@
 			<div class="footer__content footer__social">
 				<p class="footer__h4">Share with Love</p>
 				<div class="footer__set">
-					<a href="https://www.facebook.com/"><i class="footer__bar fa-brands fa-facebook-f"></i></a>
-					<a href="https://twitter.com/"><i class="footer__bar fa-brands fa-twitter"></i></a>
-					<a href="https://ru.linkedin.com/"><i class="footer__bar fa-brands fa-linkedin"></i></a>
+					<a href="https://www.facebook.com/" target="_blank"><i
+							class="footer__bar fa-brands fa-facebook-f"></i></a>
+					<a href="https://twitter.com/" target="_blank"><i class="footer__bar fa-brands fa-twitter"></i></a>
+					<a href="https://ru.linkedin.com/" target="_blank"><i class="footer__bar fa-brands fa-linkedin"></i></a>
 				</div>
 			</div>
 			<div class="footer__content footer__about">
@@ -233,7 +273,7 @@
 			</div>
 		</div>
 		<div class="footer__container2">
-			<p class="footer__text2">Copyright © 2015 ActiveBox. All Rights Reserved Made with</p>
+			<p class="footer__text2">Copyright ¬© 2015 ActiveBox. All Rights Reserved Made with</p>
 		</div>
 	</div>
 </body>

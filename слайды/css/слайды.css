@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: plum;
+}
+.slaider{
+	width: 100%;
+	height: 500px;
+	/*overflow: hidden;*/
+	/*border: 10px solid white;*/
+}
+.midlle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.nav{
+	position: absolute;
+	bottom: 16px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	margin-bottom: -60px;
+}
+
+.bar{
+	height: 11px;
+	width:11px;
+	margin: 6px;
+	cursor: pointer;
+	opacity: .7;
+	background-color: white;
+	border: 1px solid rgb(14, 12, 12);
+	border-radius: 50%;
+	transition: all .4s ease;
+}
+.bar:hover{
+	opacity: 2;
+	transform: scale(1.1);
+}
+input[name="r"]{
+	position: absolute;
+	visibility: hidden;
+}
+.slaides{
+	width: 400%;
+	height: 100%;
+	display: flex;
+}
+.slaide{
+	width: 25%;
+	transition: all .6s ease;
+}
+.testimonials{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 100%;
+}
+.testimonials__text {
+	background: #5C3249;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.testimonials__h2 {
+	font-family: 'Cardo';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 49px;
+	margin: 0 30px;
+	color: #FFFFFF;
+}
+
+.testimonials__h6 {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 15px;
+	margin: 30px;
+	color: #FFFFFF;
+}
+.slaide .testimonials{
+	width: 100%;
+	height: 100%;
+}
+.testimonials__img{
+	width: 100%;
+	height: 100%;
+}
+.img__s{
+	width: 100%;
+	height: 100%;
+}
+#r1:checked ~ .s1{
+	margin-left: 0;
+}
+#r2:checked~.s1 {
+	margin-left: -25%;
+}
+#r3:checked~.s1 {
+	margin-left: -50%;
+}
+#r4:checked~.s1 {
+	margin-left: -75%;
+}
+@media (max-width: 1024px) {
+	.testimonials__h2 {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	.testimonials__h6 {
+		font-size: 12px;
+		line-height: 14px;
+	}
+}
+
+@media (max-width: 767px) {
+	.slaider{
+		height: 100%;
+	}
+	.testimonials {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.testimonials__h2 {
+		display: flex;
+		text-align: center;
+		padding-top: 10%;
+	}
+
+	.testimonials__h6 {
+		text-align: center;
+		padding-bottom: 10%;
+	}
+}
