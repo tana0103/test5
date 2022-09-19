@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&family=Raleway:wght@400;700&display=swap');
 
 .customers{
-	width: 95%;
+	max-width: 1170px;
 	margin: 0 auto;
 	padding: 0px;
 }

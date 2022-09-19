@@ -5,7 +5,7 @@
 .container__pricing{
 	background: #F5F5F5;
 	text-align: center;
-	width: 100%;
+	max-width: 1170px;
 	margin: auto;
 	padding: 0px;
 }
